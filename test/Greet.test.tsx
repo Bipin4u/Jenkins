@@ -8,6 +8,6 @@ describe('Greet', () => {
     it('should display the correct greeting message', async () => {
       render(<Greet name="bipin" />);
       const heading = await screen.findByRole('heading');
-      expect(heading).toHaveTextContent("Greeting'ss bipin");
+      expect(heading).toHaveTextContent("Greeting's bipin");
     });
   });
