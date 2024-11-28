@@ -3,7 +3,9 @@ interface nameProp {
 }
 const Greet:React.FC<nameProp> = ({name}) => {
   return (
-    <h1 style={{backgroundColor:"blue"}}>Greeting's {name}</h1>
+    <div>
+      <h1 style={{backgroundColor:"blue"}}>Greeting's {name}</h1>
+    </div>
   )
 }
 export default Greet
